@@ -42,7 +42,7 @@ class ApplyViewController: UITableViewController {
         dismiss(animated: true,completion: nil)
         
         let fruits = apple[indexPath.row]
-        delegateTwo?.fruictDidSelect(fruit)
+        delegateTwo?.fruictDidSelect(fruits)
         dismiss(animated: true,completion: nil)
         
         
